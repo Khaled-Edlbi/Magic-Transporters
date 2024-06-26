@@ -1,0 +1,33 @@
+{
+  "name": "magic-transporters",
+  "version": "1.0.0",
+  "description": "Welcome to Magic Transporters, the future of moving things easily. These super cool transporters, powered by virtual magic, are here to make shipping stuff a breeze.",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint server.ts",
+    "ts": "tsc -w",
+    "dev": "nodemon dist/server.js",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "khaled-edlbi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.8",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.14.1"
+  }
+}
